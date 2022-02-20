@@ -1,0 +1,26 @@
+/* === Scrollbar === */
+
+html::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: rgb(230, 230, 230);
+    border-radius: 10px;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #ffd231;
+    border-radius: 10px;
+  }
+  
+  html::-webkit-scrollbar-thumb:hover {
+    background: #f0c21e;
+    border-radius: 10px;
+  }
+  
+  html::-webkit-scrollbar-thumb:active {
+    background: #e9b700;
+    border-radius: 10px;
+    color: rgba(33, 37, 41, 0.7); 
+  }
