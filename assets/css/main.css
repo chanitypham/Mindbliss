@@ -338,7 +338,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: "Nunito", "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial"; 
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -3523,7 +3523,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.8rem 1rem; }
   .nav-link:hover, .nav-link:focus {
-    text-decoration: none; }
+    text-decoration: underline; }
   .nav-link.disabled {
     color: #6c757d; }
 
@@ -3590,8 +3590,8 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.68rem;
-  padding-bottom: 0.68rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-right: 1rem;
   font-size: 1.15rem;
   line-height: inherit;
@@ -3710,8 +3710,7 @@ input[type="button"].btn-block {
       .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute; }
       .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 0.9rem;
-        padding-left: 0.9rem; }
+        padding-left: 35px; }
     .navbar-expand-lg > .container,
     .navbar-expand-lg > .container-fluid {
       flex-wrap: nowrap; }
@@ -3776,9 +3775,14 @@ input[type="button"].btn-block {
     color: rgba(0, 0, 0, 0.9); }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgb(33, 37, 41); }
+  color: rgb(33, 37, 41); 
+  font-size: 16px;
+  font-weight: 600;
+}
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: rgba(33, 37, 41, 0.7); }
+    color: #2c7335!important;
+    font-weight: 600;
+  }
   .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(33, 37, 41, 0.3); }
 
@@ -3805,7 +3809,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-brand {
   color: #fff; }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: #fff; }
+    color: #2c7335!important; }
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.85); }
@@ -4277,7 +4281,7 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  /* background-color: #e9ecef; */
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
@@ -4882,7 +4886,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: "Nunito", "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial"; 
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -4967,7 +4971,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: "Nunito", "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial"; 
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -5438,6 +5442,14 @@ button.bg-lightblue:focus {
 
 .bg-yellow2white {
   background: linear-gradient(to bottom, #FFD743 0%, #ffffff 90%); }
+
+.bg-green2white {
+  background: linear-gradient(to bottom, #65ad6e 0%, #fff 100%);
+}
+
+.bg-white2green {
+  background: linear-gradient(to top, #65ad6e 0%, #fff 100%);
+}
 
 .bg-white2yellow {
   background: linear-gradient(to top, #FFD743 0%, #ffffff 90%); }
@@ -8764,7 +8776,10 @@ body {
   top: 69.75px; }
 
 .secondfont, .navbar-brand {
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial"; }
+  /* font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";  */
+  font-family: "Nunito", "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial"; 
+  font-weight: 600;
+}
 
 img {
   max-width: 100%; }
@@ -8950,7 +8965,7 @@ a.text-dark:hover {
 
 .navbar-brand {
   margin-right: 2rem;
-  font-size: 1.25rem; }
+  font-size: 25px; }
 
 .dropdown-item {
   font-weight: 400; }
@@ -8973,7 +8988,9 @@ a.text-dark:hover {
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9); }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color: rgba(0, 0, 0, 0.9); }
+    color: #2c7335!important;
+    text-decoration: underline;
+   }
 
 .navbar-light .navbar-nav .nav-link {
   color: rgb(33, 37, 41); }
@@ -9097,6 +9114,9 @@ a.text-dark:hover {
 
 .bg-lightblue {
   fill: #e8f3ec !important; }
+
+.bg-lightgreen {
+  background-color: #e4f3e6 !important; }
 
 .card .date {
   position: absolute;
@@ -9692,9 +9712,9 @@ ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > u
 /*# sourceMappingURL=main.css.map */
 
 
-/* === Scrollbar === */
+/* === Scrollbar yellow === */
 
-html::-webkit-scrollbar {
+/* html::-webkit-scrollbar {
   width: 10px;
 }
 
@@ -9716,7 +9736,7 @@ html::-webkit-scrollbar-thumb:hover {
 html::-webkit-scrollbar-thumb:active {
   background: #e9b700;
   border-radius: 10px;
-}
+} */
 
 
 .article-heading-h5 {
@@ -9734,4 +9754,33 @@ ul .to-do-list {
 .article-thankyou {
   font-style: italic;
   font-weight: 600;
+} 
+
+/* === Scrollbar green === */
+
+html::-webkit-scrollbar {
+  width: 10px;
 }
+
+html::-webkit-scrollbar-track {
+  background: rgb(230, 230, 230);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #a2d1a8;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #65ad6e;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background: #65ad6e;
+  border-radius: 10px;
+}
+
+
+
