@@ -8798,7 +8798,8 @@ a, a:hover {
   transition: all .2s; }
 
 a {
-  color: #2c7335; }
+  color: #2c7335;
+  font-weight: 600; }
 
 a.text-dark:hover {
   color: #2c7335 !important;
