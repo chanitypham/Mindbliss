@@ -112,12 +112,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #ffdc5c;
+  color: #5fa569;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #eebb00;
+    color: #2c7335;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -421,12 +421,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #cba002;
+  color: #64a16c;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #ffc800;
+    color: #2c7335!important;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -7517,8 +7517,8 @@ a.text-light:hover, a.text-light:focus {
 .text-dark {
   color: #212529 !important; }
 
-a.text-dark:hover, a.text-dark:focus {
-  color: #0a0c0d !important; }
+a.text-dark:hover, a.text-dark :focus {
+  color: #2c7335 !important; }
 
 .text-white {
   color: #fff !important; }
@@ -8798,10 +8798,11 @@ a, a:hover {
   transition: all .2s; }
 
 a {
-  color: #cba002; }
+  color: #2c7335; }
 
 a.text-dark:hover {
-  color: #ffc800 !important; }
+  color: #2c7335 !important;
+  text-decoration: underline; }
 
 .c-pointer:hover {
   cursor: pointer; }
