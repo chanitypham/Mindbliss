@@ -27,7 +27,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-family: 'Nunito', 'Roboto', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -9347,7 +9347,7 @@ ol.list-featured li:before {
     z-index: 1111; } }
 
 article {
-  font-family: Helvetica, "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', 'Helvetica', "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 1.7;
   text-align: justify;
