@@ -9785,8 +9785,8 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .cover-pic{
-  background-image: url(assets/img/plant.jpg);
-  width: 100%;
+  background-image: url(https://rawcdn.githack.com/chanitypham/Mindbliss/7dd6edd40194c38be45c50490e5b47895041a3f6/assets/img/plant.jpg);
+  width: 50%;
   height: 500px;
 }
 
