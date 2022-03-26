@@ -37,8 +37,7 @@
 
 .clash-card__image {
   position: relative;
-  height: 230px;
-  margin-top: 25px;
+  height: 200px;
   margin-bottom: 15px;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
@@ -82,11 +81,13 @@
   color: black;
   font-weight: 900;
   margin-bottom: 5px;
+  line-height: 35px;
+  padding: 0px 20px
 }
 
 .clash-card__unit-description {
-  padding: 20px;
-  margin-bottom: 10px;
+  padding: 0px 20px 20px 20px;
+
 }
 
 .clash-card__unit-stats--barbarian {
