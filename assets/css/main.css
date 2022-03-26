@@ -4737,6 +4737,10 @@ input[type="button"].btn-block {
     background-color: #797e7b;
     border-color: #797e7b; }
 
+.pad-center{
+  padding: 0px 50px!important
+}
+
 .close {
   float: right;
   font-size: 1.5rem;
@@ -4801,6 +4805,16 @@ button.close {
     display: block;
     height: calc(100vh - (0.5rem * 2));
     content: ""; }
+
+.allposts-card {
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.allposts-img {
+  border-radius: 5px;
+}
 
 .modal-content {
   position: relative;

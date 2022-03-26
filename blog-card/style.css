@@ -23,14 +23,14 @@
   display: inline-block;
   margin-right: -3px;
   margin-left: 35px;
-  border-radius: 20px;
+  border-radius: 10px;
   position: relative!important;
   text-align: center;
   box-shadow: 0px 0px 0px 1px rgb(211, 211, 211);
 }
 
 .see-more {
-  margin-left: 890px;
+  margin-left: 870px;
   margin-top: 10px;
   display: flex;
 }
@@ -39,15 +39,14 @@
   position: relative;
   height: 200px;
   margin-bottom: 15px;
-  border-top-left-radius: 14px;
-  border-top-right-radius: 14px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .clash-card__image--wizard {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+  background: url("https://rawcdn.githack.com/chanitypham/Mindbliss/d23490ca046e3bf701efc6c9a8c0a9c48ed3bbf0/assets/img/Matcha-Green-Tea-Energy-min.png");
   position: relative;
 }
-
 
 .clash-card__level {
   text-transform: uppercase;

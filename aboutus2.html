@@ -11,8 +11,8 @@
 <!-- Google Font -->
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,600,700" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,700,500" rel='stylesheet' type='text/css'> 
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
 
 <!-- Font Awesome Icons -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -23,91 +23,133 @@
 </head> 
 <body>
 
-    <!-- ===== START NAV BAR, have deleted bg-green2white ===== -->
-    <nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
-		<div class="container" style="padding: 0px 48px;">
-			<a class="navbar-brand" href="index.html"><strong>Mindbliss</strong></a>
-			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="navbar-collapse collapse" id="navbarColor02">
-				<ul class="navbar-nav ml-auto d-flex align-items-center">
-					<li class="nav-item">
-					<a class="nav-link" href="index.html">Trang Chủ</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link nav-active" href="allposts.html">Bài Viết</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="aboutus.html">Tác Giả</a>
-					</li>
-				</ul>
-			</div>
+<!-- ===== START NAV BAR ===== -->
+<nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	<div class="container" style="padding: 0px 15px;">
+		<a class="navbar-brand" href="index.html"><strong>Mindbliss</strong></a>
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="navbar-collapse collapse" id="navbarColor02">
+			<ul class="navbar-nav ml-auto d-flex align-items-center">
+				<li class="nav-item">
+				<a class="nav-link" href="index.html">Trang Chủ</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="allposts.html">Bài Viết</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link nav-active" href="aboutus.html">Tác Giả</a>
+				</li>
+			</ul>
+	
+	<!-- ////////// REMEMBER TO ADD chatbot ////////// -->
+	
+			<!-- <ul class="navbar-nav ml-auto d-flex align-items-center">
+				<li class="nav-item highlight">
+				<a class="nav-link" href="#subscribe-section">Chatbot Mindbliss</a>
+				</li>
+			</ul> -->
+	
 		</div>
-		</nav>
-		<!-- ===== END NAV BAR ===== -->
-
-
+	</div>
+	</nav>
+<!-- ===== END NAV BAR ===== -->
+    
+<img src="assets/img/forest.jpg" width="1500px" height="350px">
 
 <!--------------------------------------
-MAIN
---------------------------------------->    
-<div class="container pad-center">
-	<div class="row justify-content-between">
-		<div class="col-md-12 mt-3" style="text-align: center;">
-			<h5 class="font-weight-bold spanborder"><span>Về Mindbliss</span></h5>
-		</div>
-		<div class="col-md-12">
-			<p>
-				Mindbliss được thành lập bởi 5 thành viên thuộc trường Đại học Hà Nội.
-			</p>
-		</div>
+HEADER
+--------------------------------------->
 
-		<div class="col-md-6 mb-5">
+			<div class="container pt-4 pb-4">
+				<div class="row justify-content-center">
+					<div class="col-md-12 col-lg-8 pt-12 pr-12 align-self-center">
+						<p class="text-uppercase font-weight-bold">
+						</p>
+						<h1 class="display-4 secondfont mb-3 font-weight-bold">Về Mindbliss</h1>
+						<!-- <p class="mb-3"> -->
+                        <p>
+							Mindbliss được thành lập bởi 5 thành viên thuộc trường Đại học Hà Nội.
+						</p>
+						<!-- <div class="d-flex align-items-center">
+							<h6>👩🏻 <span class="author"> Tác giả: Phạm Quỳnh Trang </span> <span class="text-muted d-block"> 24/11/2021 &middot; 5m read </span>
+							</h6>
+						</div> -->
+					</div>
+
+					<!-- currently no img
+
+					<div class="col-md-12 col-lg-8 pr-0">
+						<img src="./assets/img/demo/intro.jpg">
+					</div>
+
+					-->
+				</div>
+			</div>
+
+<!-- End Header -->
+    
+<!--------------------------------------
+MAIN
+--------------------------------------->
+<div class="container pb-4">
+	<div class="row justify-content-center">
+<!-- ===== SHARE THIS BOX ===== -->		
+<!--    <div class="col-lg-2 pr-4 mb-4 col-md-12">
+			<div class="sticky-top text-center">
+				<div class="text-muted">
+					Share this
+				</div>
+				<div class="share d-inline-block">
+
+					<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+						<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+						<a class="a2a_button_facebook"></a>
+						<a class="a2a_button_twitter"></a>
+					</div>
+					<script async src="https://static.addtoany.com/menu/page.js"></script>
+
+				</div>
+			</div>
+		</div> 
+	-->
+		<div class="col-md-12 col-lg-8">
+			<article class="article-post">
+			<!-- no need yet
+			<h3 class="article-heading-h3">
+				Bí kíp chung cho tất cả các phòng ban:
+			</h3>
+			-->
 			<h5 class="article-heading-h5">
 				👩🏻: Phí Hạnh Linh
 			</h5>
 			<p class="pb-4">
 				Hey, mình là Hạnh Linh, một người từng chật vật với cuộc sống và những thói quen có hại trong một khoảng thời gian dài. Mình đã tự tìm cách thoát ra khỏi nó chỉ bằng việc bắt đầu các thói quen tốt. Nếu bạn cũng đã từng trải qua cảm giác ấy thì hãy dừng lại ở đây và đón đọc những chia sẻ của mình nhé!
 			</p>
-		</div> 
-		<div class="col-md-6 mb-5">
-			<img src="assets/img/coffee.jpg">
-		</div>
-		<div class="col-md-6 mb-5">
-			<img src="assets/img/coffee.jpg">
-		</div>
-		<div class="col-md-6 mb-5">
+
 			<h5 class="article-heading-h5">
 				👩🏻: Minh Ngọc
 			</h5>
 			<p class="pb-4">
 				Hi, mình là Minh Ngọc đây. Mình đã từng là một cô gái chỉ biết học mà bỏ bê bản thân mình. Cho đến khi mình cảm thấy mệt mỏi và sức khỏe đi xuống, mình mới nhận ra sự thờ ơ với bản thân và bắt đầu đi tìm hiểu về lối sống lành mạnh. Vì vậy, qua chiếc blog này, mình hi vọng có thể giúp các bạn giống như mình tìm được một lối sống mới cho bản thân.
             </p>
-		</div>
-		<div class="col-md-6 mb-5">
+
+
             <h5 class="article-heading-h5">
 				👩🏻: Quỳnh
 			</h5>
 			<p class="pb-4">
-				Hi love, it's me, là Anth nè. Mình vẫn đang là một cô bé trên hành trình đi tìm “chính mình” và một lối sống phù hợp hơn với bản thể mà mình đang hướng đến. Trên hành trình đó không có sai hay đúng, mà chỉ có phù hợp hay không phù hợp. Vì thế, nếu bạn vẫn đang loay hoay chưa biết phải làm sao để có một lối sống lành mạnh hơn thì đã có mình ở đây, đồng hành cùng bạn.
+				Hi love, it’s me, là Anth nè. Mình vẫn đang là một cô bé trên hành trình đi tìm “chính mình” và một lối sống phù hợp hơn với bản thể mà mình đang hướng đến. Trên hành trình đó không có sai hay đúng, mà chỉ có phù hợp hay không phù hợp. Vì thế, nếu bạn vẫn đang loay hoay chưa biết phải làm sao để có một lối sống lành mạnh hơn thì đã có mình ở đây, đồng hành cùng bạn.
             </p>
-		</div>
-		<div class="col-md-6 mb-5">
-			<img src="assets/img/coffee.jpg">
-		</div>
-		<div class="col-md-6 mb-5">
-			<img src="assets/img/coffee.jpg">
-		</div>
-		<div class="col-md-6 mb-5">
+
             <h5 class="article-heading-h5">
 				👩🏻: Hằng
 			</h5>
 			<p class="pb-4">
 				Hi, mình là Linhwang - cô gái luôn theo đuổi sự hoàn hảo. Dù sự hoàn hảo ấy có đôi chút cứng nhắc và khó chịu nhưng không vì thế mà mình từ bỏ nỗ lực hiện thực hóa mục tiêu này. Mình hi vọng những bài viết của mình có thể gợi ý cho bạn một vài tips và mẹo để có một cuộc sống tối giản, quy củ và kỉ luật hơn nha.
             </p>
-		</div>
-		<div class="col-md-6 mb-5">
+
             <h5 class="article-heading-h5">
 				👩🏻: Phạm Quỳnh Trang
 			</h5>
@@ -115,26 +157,28 @@ MAIN
 				Alo alo, mình là Quỳnh Trang nè ^^ <br>
 				Chào mừng bạn đến với vương quốc của hạnh phúc và bình yên nha! Mình luôn làm việc với phương châm dám riêng bản để tạo ra giá trị độc đáo. Chính vì vậy, từng dòng code làm nên trang web này cũng đều mang những nét riêng, hứa hẹn sẽ giúp bạn có những trải nghiệm mới lạ và đặc biệt nha. <br> Trong thời buổi dịch bệnh hiện nay, Quỳnh Trang rất mong bạn sẽ giữ gìn sức khỏe cả về thể chất lẫn tinh thần, không chỉ để cho bản thân bạn mà còn cho gia đình và xã hội nữa nè. Kết nối với mình qua <a style="font-weight: bolder;" href="https://www.facebook.com/trangpq03/">Facebook</a> nha! <br><span style="font-style:italic; font-weight: bolder;"> Stay happy and healthy!</span>
             </p>
-		</div>
-		<div class="col-md-6 mb-5">
-			<img src="assets/img/coffee.jpg">
-		</div>
-		<div class="col-md-6 mb-5">
-			<img src="assets/img/coffee.jpg">
-		</div>
-		<div class="col-md-6 mb-5">
+
             <h5 class="article-heading-h5">
 				👩🏻: Phương Thảo
 			</h5>
 			<p class="pb-4">
 				Chào mọi người, mình là Phương Thảo, một cô gái với tâm hồn đầy mộng mơ và nhiều suy tưởng. Mình không mong là vì thế mà những bài viết của mình sẽ phải khiến mọi người cau mày vì những điều mình nghĩ có chút lộn xộn và “bất thường”... nhưng có thể khiến ai đó có thể gật gù, và mỉm cười với những góc nhìn mới. 
             </p>
-		</div>		
 
+
+			<p class="article-thankyou">Rất mong sẽ được kết nối với bạn! Chúc bạn một ngày tốt lành nha!</p>
+			</article>
+		</div>
+	</div>
+</div>
+    
+
+<!-- End Main -->
+    
 <!--------------------------------------
 FOOTER
 --------------------------------------->
-<div class="container-nopad mt-5">
+<div class="container-nopad mt-5 ">
 	<div class="bg-white">
 		<div class="container">
 			<footer class="bg-yellow border-top text-black small wow fadeIn" data-wow-delay="0.4s" style="margin: 0 15px;">
@@ -157,10 +201,9 @@ FOOTER
 <!--------------------------------------
 JAVASCRIPTS
 --------------------------------------->
-<script src="inc/animations/js/wow.min.js"></script>
-<script src="assets/js/vendor/jquery.min.js" type="text/javascript"></script>
-<script src="assets/js/vendor/popper.min.js" type="text/javascript"></script>
-<script src="assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
-<script src="assets/js/functions.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/jquery.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+<script src="./assets/js/functions.js" type="text/javascript"></script>
 </body>
 </html>
