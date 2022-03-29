@@ -173,3 +173,167 @@
   right: 100px;
   z-index: 999;
 }
+
+
+/*******************************/
+/*********** Blog CSS **********/
+/*******************************/
+.blog {
+  position: relative;
+  width: 100%;
+}
+
+.blog .row {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
+
+.blog .blog-carousel {
+  position: relative;
+  width: calc(100% + 30px);
+  left: -15px;
+  right: -15px;
+}
+
+.blog .blog-item {
+  position: relative;
+  border-right: 1px solid rgba(0, 0, 0, .07);
+  border-bottom: 1px solid rgba(0, 0, 0, .07);
+  border-left: 1px solid rgba(0, 0, 0, .07);
+  border-top: 1px solid rgba(0, 0, 0, .07);
+  text-align: justify;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.blog .blog-text {
+  padding: 10px 25px 10px 25px;
+}
+
+.blog .blog-img {
+  position: center;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.blog .blog-img img {
+  text-align: center;
+  width: 60%;
+  height: 60%;
+}
+
+
+.blog .blog-text h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.blog .blog-text p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+/* .blog .blog-item a.btn {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #343148;
+  transition: .3s;
+  padding: 0px!important;
+}
+
+.blog .blog-item a.btn i {
+  margin-left: 10px;
+  text-align: center;
+}
+
+.blog .blog-item a.btn:hover {
+  color: #F7CAC9;
+  text-align: center;
+} */
+
+.blog-link {
+  font-size: 26px;
+  color: black;
+  font-weight: 800;
+  margin-bottom: 5px;
+  line-height: 35px;
+}
+
+.blog-link-icon {
+  padding-left: 10px;
+}
+
+.blog .blog-meta {
+  position: relative;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.blog .blog-meta p {
+  margin: 0 10px 0 0;
+  font-size: 13px;
+}
+
+.blog .blog-meta i {
+  margin-right: 5px;
+}
+
+.blog .blog-meta p:last-child {
+  margin: 0;
+}
+
+.blog .owl-nav {
+  width: 150px;
+  margin: 32px auto 0 auto;
+  display: flex;
+}
+
+.blog .owl-nav .owl-prev,
+.blog .owl-nav .owl-next {
+  margin-left: 15px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F7CAC9;
+  background: #343148;
+  font-size: 22px;
+  transition: .3s;
+}
+
+.blog .owl-nav .owl-prev:hover,
+.blog .owl-nav .owl-next:hover {
+  color: #343148;
+  background: #F7CAC9;
+}
+
+.blog .pagination .page-link {
+  color: #343148;
+  border-radius: 0;
+  border-color: #343148;
+}
+
+.blog .pagination .page-link:hover,
+.blog .pagination .page-item.active .page-link {
+  color: #F7CAC9;
+  background: #343148;
+}
+
+.blog .pagination .disabled .page-link {
+  color: #999999;
+}
+
+.blog-preview-img {
+  position: relative;
+  height: 200px;
+  margin-bottom: 15px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background: url("https://rawcdn.githack.com/chanitypham/Mindbliss/d23490ca046e3bf701efc6c9a8c0a9c48ed3bbf0/assets/img/Matcha-Green-Tea-Energy-min.png");
+  position: relative;
+}

@@ -9764,8 +9764,17 @@ html::-webkit-scrollbar-thumb:active {
   font-weight: 700;
 }
 
+.article-heading-h6 {
+  font-weight: 600;
+  font-size: 18px
+}
+
 ul .to-do-list {
   list-style-type: circle;
+}
+
+ul .numbered-list {
+  list-style-type: numeral;
 }
 
 .reference {
