@@ -590,7 +590,7 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 2.5rem!important; }
 
 h2, .h2 {
   font-size: 2rem; }
@@ -9762,11 +9762,19 @@ html::-webkit-scrollbar-thumb:active {
 
 .article-heading-h5 {
   font-weight: 700;
+  font-size: 27px;
 }
 
 .article-heading-h6 {
-  font-weight: 600;
-  font-size: 18px
+  font-weight: 700;
+  font-size: 23px
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 ul .to-do-list {
@@ -9785,6 +9793,7 @@ ul .numbered-list {
   font-style: italic;
   font-weight: 600;
 } 
+
 
 /* === Scrollbar green === */
 
