@@ -330,20 +330,15 @@
 
 .blog-preview-img {
   position: relative;
-  height: 200px;
+  height: 250px;
   margin-bottom: 15px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
-  background: url("https://rawcdn.githack.com/chanitypham/Mindbliss/d23490ca046e3bf701efc6c9a8c0a9c48ed3bbf0/assets/img/Matcha-Green-Tea-Energy-min.png");
   position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-.blog-preview-img-atc3 {
-  position: relative;
-  height: 200px;
-  margin-bottom: 15px;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  background: url("https://i.pinimg.com/564x/7d/fd/fd/7dfdfdfb3b5a830e565597f079aa5be0.jpg");
-  position: relative;
-}
+
